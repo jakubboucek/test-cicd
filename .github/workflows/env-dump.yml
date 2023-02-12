@@ -1,0 +1,5 @@
+name: ENV dump
+on: push
+jobs:
+  dump:
+    run: env
