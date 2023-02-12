@@ -6,3 +6,6 @@ jobs:
     steps: 
       - run: env | sort
       - run: echo '${{ toJson(github) }}'
+      -
+        name: Dump context
+        uses: crazy-max/ghaction-dump-context@v2
